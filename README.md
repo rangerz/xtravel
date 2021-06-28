@@ -20,10 +20,6 @@ The hotel 🏨 and campsite 🏕️  availability checker for **X**anterra **Tra
 # Setup virtualenv (Recommend)
 virtualenv venv -p python3
 source venv/bin/activate
-# deactivate
-
-pip install argparse
-# import argparse
 
 pip install -r requirements.txt
 ```
@@ -56,7 +52,7 @@ optional arguments:
 $ python xtravel.py \
 	--area grandcanyonlodges \
 	--start-date 08/01/2021 \
-	--end-date 08/30/2021 \
+	--end-date 08/07/2021 \
 	--adults 2 \
 	--children 0
 
