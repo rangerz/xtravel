@@ -1,0 +1,6 @@
+pyyaml
+enquiries
+requests
+tabulate
+jmespath
+argparse

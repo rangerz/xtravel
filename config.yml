@@ -1,0 +1,16 @@
+areas:
+  - title: Grand Canyon National Park
+    code: grandcanyonlodges
+    url: https://secure.grandcanyonlodges.com/booking/lodging
+  - title: Glacier National Park Lodges
+    code: glaciernationalparklodges
+    url: https://secure.glaciernationalparklodges.com/booking/lodging
+  - title: The Grand Hotel
+    code: grandcanyongrandhotel
+    url: https://secure.grandcanyongrandhotel.com/booking/lodging
+  - title: Yellowstone National Park
+    url: https://secure.yellowstonenationalparklodges.com/booking/lodging
+    code: yellowstonenationalparklodges
+  - title: Zion National Park
+    url: https://secure.zionlodge.com/booking/lodging
+    code: zionlodge
