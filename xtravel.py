@@ -113,7 +113,8 @@ def parse_availability(area, availability, adults, children):
         for code, hotel in data.items():
             available_people = 0
             for idx, perGuests in hotel["perGuests"].items():
-                available_people += perGuests['a']
+                if perGuests['a'] > 0:
+                    available_people += 1
             if available_people >= (adults + children):
                 date_data.append('O')
                 messages.append(f"[{date}] {code_title_map[code]}")
