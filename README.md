@@ -28,9 +28,9 @@ pip install -r requirements.txt
 
 ### Usage
 
-```bash
-$ python xtravel.py
+#### Help Message
 
+```bash
 $ python xtravel.py --help
 usage: xtravel.py [-h] [--area AREA] [--start-date START_DATE] [--end-date END_DATE] [--adults ADULTS]
                   [--children CHILDREN]
@@ -46,7 +46,24 @@ optional arguments:
   --children CHILDREN   Number of Children (0~7)
 ```
 
-#### Example Output
+#### Use Wizard
+
+```bash
+$ python xtravel.py
+Area:
+> Grand Canyon National Park
+  Glacier National Park Lodges
+  The Grand Hotel
+  Yellowstone National Park
+  Zion National Park
+
+Enter start date [08/01/2021]:
+Enter end date [08/07/2021]:
+Enter number of adults (1~8)[1]: 2
+Enter number of children (0~7)[0]:
+```
+
+#### Use Parameters
 
 ```bash
 $ python xtravel.py \
@@ -55,7 +72,11 @@ $ python xtravel.py \
 	--end-date 08/07/2021 \
 	--adults 2 \
 	--children 0
+```
 
+#### Example Output
+
+```
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Found the available date !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
